@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Ankush's Portfolio.</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/07055a6e88.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span id="ankush">Anku</span>sh.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header"><i class="fa-solid fa-house"> </i> Home</a></li>
+                    <li><a href="#About"><i class="fa-solid fa-address-card"></i> About</a></li>
+                    <li><a href="#services"><i class="fa-brands fa-servicestack"></i> Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="./index1.html"><i class="fa-solid fa-certificate"></i> Certificates</a></li>
+                    
+                    <li><a href="#contact" class="cont"><i class="fa-solid fa-address-book"></i>  Contact  </a> </li>
+                    
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-list" onclick="openmenu()"></i>
+            </nav>
+            <div class="about">
+            <div class="left"><h3>Hello, It's Me</h3>
+                <h1><span class="span1">Ankush</span> Kumar from India.</h1>
+            <h3>And i'm a <span></span></h3>
+            <div class="chat"><a href="https://tangerine-strudel-4f44f7.netlify.app/"><i class="fa-brands fa-rocketchat"></i> Let's Chat</a>
+            </div>
+            </div>
+            <div class="right"><img src="./background.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <div id="About">
+        <div class="conta">
+            <div class="row">
+                <div class="about1">
+                    <img src="./pic.jpg"/>
+                </div>
+                <div class="about2">
+                    <h1 class="sub">About Me</h1>
+                    <p>I am currently studying computer science and gaining practical experience working<br> on my own projects.
+                        Ability to program and troubleshoot Java applications.<br>
+                        Excellent problem solving skills and the ability to work well in a team.<br>
+                        Huge desire to learn and develop in the field of softwere development.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-link a" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>UI/UX Design Training from Angela Yu</li>
+                            <li><span>2022 - 2023</span><br>Team lead at Project Submittion Portal Project</li>
+                            <li><span>2021 - 2022</span><br>First in Hackerank problem solving in my batch</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2020 - 2021</span><br>NDA</li>
+                            <li><span>2020</span><br>12th from DAV NIT Jamshedpur</li>
+                            <li><span>2018</span><br>10th from DAV NIT jamshedpur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub">My survices</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>not yet</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>not yet</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>not yet</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./pic1.jpeg"/>
+                <div class="layer">
+                    <h3>Web Designing</h3>
+                    <p>The web will help you to learn many things.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./pic2.jpg"/>
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./pic3.jpg"/>
+                <div class="layer">
+                    <h3>Game Designing</h3>
+                    <p>These games will help you to develop cognitive skills.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="./seemore.pdf" class="btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> thunderankush@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9905116398</p>
+                <div class="social-icons">
+                    <a href="https://m.facebook.com/ankush.tiwari.372019?wtsid=rdr_0cDyfGSWccCSZ5npm"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/whoankushkumar?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ankush-kumar-b34031251"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/THUNDERANKUSH"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a  href="./cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Copyright. Made by Ankush Kumar. <i class="fa-solid fa-user"></i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablink=document.getElementsByClassName("tab-link");
+    var tabcontent=document.getElementsByClassName("tab-content");
+    function opentab(tabname){
+        for(tablin of tablink){
+            tablin.classList.remove("a");
+        }
+        for(tabconte of tabcontent){
+            tabconte.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("a");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<form name="submit-to-google-sheet">
+    
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7cyTOt1gkjaEb0yg2FJCX4Y3th8u1i6aNZdGw89pFtokabVMXyvJHZ5-sSz_UWaoDTA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
